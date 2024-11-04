@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
     width: auto;
     height: 6411px;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
 }
 header{
     display: flex;
@@ -12,15 +16,52 @@ header{
     width: auto;
     height: 90px;
     background-color: white;
-    gap: 200px;
+    gap: 550px;
 }
 .headText{
     display: flex;
     flex-direction: row;
-  gap: 20px;
+    gap: 20px;
+    font-size: 15px;
 }
 .headb{
-    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 46px;
+    border-radius: 14px;
     background-color: black;
     color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+
 }
+
+.FirstScreen{
+    width: auto;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color:  #ECE7E4;
+}
+.FirstText{
+    gap: 10px;
+}
+.Firstb{
+    background-color: #ECE7E4;
+    border-color:#ECE7E4;
+}
+.minit{
+    line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+    color: #645C55;
+    font-size: 14px;
+}
+h1{font-size: 64px;}
