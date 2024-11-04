@@ -79,16 +79,21 @@ h1{font-size: 64px;}
 }
 .utu{
     display: flex;
-    margin-bottom: 625px;
+    margin-bottom: 525px;
 }
 .title2{
- font-size: 32px;
- line-height: 38px;
- text-align: left;
- color: #403E3B;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+    color: #403E3B;
 }
 .surname{
+    gap: 20px;
     display: flex;
     flex-direction: row;
 }
-.name{}
+.name{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
