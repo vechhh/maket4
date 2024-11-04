@@ -65,3 +65,30 @@ header{
     font-size: 14px;
 }
 h1{font-size: 64px;}
+
+.Ourfirm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 720px ;
+    background-color: white;
+    vertical-align: top;
+    gap: 150px;
+}
+.utu{
+    display: flex;
+    margin-bottom: 625px;
+}
+.title2{
+ font-size: 32px;
+ line-height: 38px;
+ text-align: left;
+ color: #403E3B;
+}
+.surname{
+    display: flex;
+    flex-direction: row;
+}
+.name{}
