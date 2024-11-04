@@ -1,0 +1,26 @@
+body{
+    width: auto;
+    height: 6411px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 90px;
+    background-color: white;
+    gap: 200px;
+}
+.headText{
+    display: flex;
+    flex-direction: row;
+  gap: 20px;
+}
+.headb{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
