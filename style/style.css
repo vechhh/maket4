@@ -128,3 +128,64 @@ line-height: 24px;
 text-align: left;
 color: #645C55;
 }
+
+.Process{
+    width: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.TextProcess{ text-align: center;}
+.TextProcess > p {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+color: #645C55;
+}
+.TextProcess > h1{
+font-size: 39px;
+line-height: 42px;
+color: #1B1A1A;
+font-weight: 400;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 200px;
+}
+.cards_1 > h2 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+}
+.cards_1 > p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
+.cards_2 > h2 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+}
+.cards_2 > p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
+.cards_3 > h2 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #403E3B;
+}
+.cards_3 > p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
