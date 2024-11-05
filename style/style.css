@@ -103,7 +103,7 @@ h1{font-size: 64px;}
     background-repeat: no-repeat;
     background-size:cover;
     width: auto;
-    height: 600px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -190,3 +190,82 @@ color: #645C55;
     text-align: center;
     color: #645C55;
 }
+
+.Themarble{
+    background-image: url('art/fon2.jfif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: auto;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    text-align: left;
+}
+.TextThemarble{
+    padding: 300px;
+    padding-bottom: 0px;
+ }
+ .TextThemarble > h1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    Letter-spacing: 2px;
+    text-align: left;
+    color: #403E3B;
+ }
+ .TextThemarble  > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;   
+    color:  #645C55;
+ }
+
+ .Happy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+    background-color: #403E3B;
+    gap: 200px;
+ }
+ .TextHappy{ color: white;}
+ .TextHappy > h1{
+     font-size: 32px;
+     font-weight: 400;
+     line-height: 38px;
+     text-align: left;
+ }
+ .TextHappy > h2 {    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #ECE7E4;
+ }
+ .TextHappy > p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #ECE7E4;
+ }
+ .IconsHappy{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+ }
+ .IconsHappy_1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+ }
+ .IconsHappy_2{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+ }
