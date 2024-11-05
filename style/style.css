@@ -136,19 +136,20 @@ color: #645C55;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
 }
 .TextProcess{ text-align: center;}
 .TextProcess > p {
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-color: #645C55;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 2px;
+   color: #645C55;
 }
 .TextProcess > h1{
-font-size: 39px;
-line-height: 42px;
-color: #1B1A1A;
-font-weight: 400;
+   font-size: 39px;
+   line-height: 42px;
+   color: #1B1A1A;
+   font-weight: 400;
 }
 .cards{
     display: flex;
