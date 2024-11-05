@@ -103,7 +103,7 @@ h1{font-size: 64px;}
     background-repeat: no-repeat;
     background-size:cover;
     width: auto;
-    height: 1000px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -111,7 +111,7 @@ h1{font-size: 64px;}
     text-align: left;
 }
 .TextHouse{
-   padding: 300px;
+   padding: 50px;
 }
 .TextHouse > h1{
 font-size: 14px;
@@ -121,7 +121,7 @@ letter-spacing: 2px;
 text-align: left;
 color: #403E3B;
 }
-.TextHouse > h1 > p {
+.TextHouse  > p {
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -194,9 +194,9 @@ color: #645C55;
 .Themarble{
     background-image: url('art/fon2.jfif');
     background-repeat: no-repeat;
-    background-size:cover;
-    width: auto;
-    height: 1000px;
+    background-size: cover;
+    width:auto;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -204,7 +204,7 @@ color: #645C55;
     text-align: left;
 }
 .TextThemarble{
-    padding: 300px;
+    padding: 120px 25px 0 0;
     padding-bottom: 0px;
  }
  .TextThemarble > h1{
@@ -228,6 +228,7 @@ color: #645C55;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: auto;
     height: 410px;
     background-color: #403E3B;
     gap: 200px;
@@ -268,4 +269,86 @@ color: #645C55;
     display: flex;
     gap: 100px;
     align-items: center;
+ }
+ .Swirling{
+    width: auto;
+    height: 600px;
+    background-image: url('art/fon3.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;  
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+ }
+ .TextSwirling{
+    color: #645C55;
+    padding: 100px;
+ }
+ .TextSwirling > h1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #403E3B;
+ }
+
+ .Featured{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    gap: 30px;
+ }
+ .FotoFeatured{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
+ .FotoTextFeatured{
+    width: 375px;
+    height: 460px;
+    background-image: url('art/arm.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .FotoTextFeatured > h1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #645C55;
+    padding: 0 0 0 35px;
+ }
+ .FotoTextFeatured > p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #403E3B;
+    padding: 0 0 0 35px;
+ }
+ .Featuredb{
+    border-color: #1B1A1A;
+    border-radius: 14px;
+    background: #1B1A1A;
+    color: #FFFFFF;
+    width: 133px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35px;
+    top: 290px;
+ }
+ .Featuredb > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
  }
