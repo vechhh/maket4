@@ -97,6 +97,20 @@ h1{font-size: 64px;}
     flex-direction: column;
     white-space: nowrap;
 }
+.name > h1{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #1B1A1A;
+}
+.name > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #645C55;
+}
 
 .House{
     background-image: url('art/fon1.jfif');
@@ -114,19 +128,19 @@ h1{font-size: 64px;}
    padding: 50px;
 }
 .TextHouse > h1{
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 2px;
-text-align: left;
-color: #403E3B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #403E3B;
 }
 .TextHouse  > p {
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: #645C55;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #645C55;
 }
 
 .Process{
@@ -382,3 +396,57 @@ color: #645C55;
     position: relative;
     left: 550px;
  }
+
+ .Meet{
+    width: auto;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+ .TextMeet > h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: #403E3B;
+ }
+ .TextMeet > p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #645C55;
+ }
+ .Meetb{
+    background-color: white;
+    border-color:white;
+    width: 121px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .Meetb > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #1B1A1A;
+ }
+
+ .Meetpeople{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .surname2{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
