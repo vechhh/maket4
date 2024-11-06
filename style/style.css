@@ -295,16 +295,35 @@ color: #645C55;
  }
 
  .Featured{
+    background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     text-align: left;
     justify-content: center;
     gap: 30px;
  }
+ .TextFeatured > h1{
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #1B1A1A;
+    padding: 0 0 0 80px;
+ }
+ .TextFeatured > p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #645C55;
+    padding: 0 0 0 80px;
+ }
  .FotoFeatured{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
  }
  .FotoTextFeatured{
@@ -351,4 +370,15 @@ color: #645C55;
     line-height: 24px;
     letter-spacing: 0.4000000059604645px;
     text-align: left;
+ }
+ .Featuredb2{
+    background-color: white;
+    border-color:white;
+    width: 180px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 550px;
  }
