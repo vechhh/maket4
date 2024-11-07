@@ -91,11 +91,6 @@ h1{font-size: 64px;}
     display: flex;
     flex-direction: row;
 }
-.name{
-    display: flex;
-    flex-direction: column;
-    white-space: nowrap;
-}
 .name > h1{
     font-size: 17px;
     font-weight: 400;
@@ -308,6 +303,8 @@ h1{font-size: 64px;}
  }
 
  .Featured{
+    width: auto;
+    height: 918px;
     background-color: white;
     display: flex;
     flex-direction: column;
