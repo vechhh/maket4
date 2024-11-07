@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
     width: auto;
-    height: 6411px;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -316,6 +315,7 @@ h1{font-size: 64px;}
     text-align: left;
     justify-content: center;
     gap: 30px;
+    background-color: #F7F7F7;
  }
  .TextFeatured > h1{
     font-size: 39px;
@@ -452,4 +452,71 @@ h1{font-size: 64px;}
     display: flex;
     width: 35%;
     height: 30%;
+}
+
+.Think{
+   width: auto;
+   height: 314px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 450px;
+   background-color: #CEC4BC;
+}
+.Think  > div > p {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   color: #645C55;
+}
+.Think > div > h1{
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 42px;
+   text-align: left;
+   color: #1B1A1A;
+}
+
+.Thinkb{
+   border-color: #CEC4BC;
+   background-color: #CEC4BC;
+}
+.Thinkb > p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.4000000059604645px;
+   text-align: left;
+   color: #1B1A1A;
+}
+
+footer{
+   width: auto;
+   height: 204px;
+   background-color: #F7F7F7;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 700px;
+}
+.LogoTextFooter{
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+}
+.TextFooter > p{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   text-align: left;
+   color: #645C55;
+}
+.contaks{
+   display: flex;
+   gap: 20px;
+   margin-bottom: -50px;
 }
